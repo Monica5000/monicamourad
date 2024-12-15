@@ -1,0 +1,48 @@
+body{
+background-color: aqua;
+
+}
+.layout{
+width: 600px; 
+margin: auto;
+
+
+}
+.accordion{
+background-color: black;
+margin: 10px;
+padding: 10px;
+border-radius: 5px;
+
+
+}
+.accordion__question p{
+
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.7rem;
+}
+.accordion__answer p{
+    background-color: rgb(red, green, blue);  
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: green;
+
+
+}
+
+.accordion:hover{
+cursor:pointer;
+}
+.accordion__answer{
+display: none;
+}
+.accordion.action .accordion__answer{
+    display: block;
+}
